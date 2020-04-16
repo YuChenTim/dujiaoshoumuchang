@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/tabbar/home",
+    "pages/tabbar/ranch",
+    "pages/tabbar/mine",
+    "pages/home/field",
+    "pages/home/visit",
+    "pages/home/apply",
+    "pages/home/space",
+    "pages/home/activity",
+    "pages/home/demand",
+    "pages/home/sign",
+    "pages/ranch/room",
+    "pages/mine/information",
+    "pages/mine/login",
+    "pages/mine/number",
+    "pages/mine/chargeMoney",
+    "pages/mine/calendar",
+    "pages/mine/group",
+    "pages/mine/ring",
+    "pages/mine/activity"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#4db1ff",
+    "borderStyle": "black",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/ranch",
+        "iconPath": "static/tabBar/ranch.png",
+        "selectedIconPath": "static/tabBar/ranch_1.png",
+        "text": "牧场通"
+      },
+      {
+        "pagePath": "pages/tabbar/mine",
+        "iconPath": "static/tabBar/mine.png",
+        "selectedIconPath": "static/tabBar/mine_1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

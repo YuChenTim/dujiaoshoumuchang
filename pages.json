@@ -1,0 +1,156 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/tabbar/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabbar/ranch",
+			"style": {
+				"navigationBarTitleText": "牧场通"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		// 首页
+		{
+			"path": "pages/home/field",
+			"style": {
+				"navigationBarTitleText": "场地"
+			}
+		},
+		{
+			"path": "pages/home/visit",
+			"style": {
+				"navigationBarTitleText": "预约参观"
+			}
+		},
+		{
+			"path": "pages/home/apply",
+			"style": {
+				"navigationBarTitleText": "入驻申请"
+			}
+		},
+		{
+			"path": "pages/home/space",
+			"style": {
+				"navigationBarTitleText": "空间详情"
+			}
+		},
+		{
+			"path": "pages/home/activity",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+			"path": "pages/home/demand",
+			"style": {
+				"navigationBarTitleText": "需求提交"
+			}
+		},
+		{
+			"path": "pages/home/sign",
+			"style": {
+				"navigationBarTitleText": "报名表单"
+			}
+		},
+		// 牧场通
+		{
+			"path": "pages/ranch/room",
+			"style": {
+				"navigationBarTitleText": "会议室预定"
+			}
+		},
+		// 我的
+		{
+			"path": "pages/mine/information",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/mine/login",
+			"style": {
+				"navigationBarTitleText": "补全信息"
+			}
+		},
+		{
+			"path": "pages/mine/number",
+			"style": {
+				"navigationBarTitleText": "积分"
+			}
+		},
+		{
+			"path": "pages/mine/chargeMoney",
+			"style": {
+				"navigationBarTitleText": "积分充值"
+			}
+		},
+		{
+			"path": "pages/mine/calendar",
+			"style": {
+				"navigationBarTitleText": "我的预约"
+			}
+		},
+		{
+			"path": "pages/mine/group",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/mine/ring",
+			"style": {
+				"navigationBarTitleText": "通知"
+			}
+		},
+		{
+			"path": "pages/mine/activity",
+			"style": {
+				"navigationBarTitleText": "活动管理"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#4db1ff",
+		"borderStyle": "black",
+		"backgroundColor": "#fafafa",
+		//#ifdef APP-PLUS
+		"spacing": "5px",
+		//#endif
+		"list": [{
+				"pagePath": "pages/tabbar/home",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/ranch",
+				"iconPath": "static/tabBar/ranch.png",
+				"selectedIconPath": "static/tabBar/ranch_1.png",
+				"text": "牧场通"
+			},
+			{
+				"pagePath": "pages/tabbar/mine",
+				"iconPath": "static/tabBar/mine.png",
+				"selectedIconPath": "static/tabBar/mine_1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
